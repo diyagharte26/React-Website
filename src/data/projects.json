@@ -1,0 +1,44 @@
+[
+    {
+        "id": "aarav-priya",
+        "title": "Aarav & Priya",
+        "type": "Wedding Film",
+        "location": "Pune, India",
+        "color": "#8B4513"
+    },
+    {
+        "id": "rohan-ananya",
+        "title": "Rohan & Ananya",
+        "type": "Pre-Wedding",
+        "location": "Goa, India",
+        "color": "#C9A96E"
+    },
+    {
+        "id": "vikram-meera",
+        "title": "Vikram & Meera",
+        "type": "Destination Wedding",
+        "location": "Udaipur, India",
+        "color": "#D4A5A5"
+    },
+    {
+        "id": "arjun-sneha",
+        "title": "Arjun & Sneha",
+        "type": "Wedding Film",
+        "location": "Mumbai, India",
+        "color": "#A0522D"
+    },
+    {
+        "id": "karan-ishita",
+        "title": "Karan & Ishita",
+        "type": "Engagement",
+        "location": "Delhi, India",
+        "color": "#B8860B"
+    },
+    {
+        "id": "dev-riya",
+        "title": "Dev & Riya",
+        "type": "Wedding Film",
+        "location": "Jaipur, India",
+        "color": "#CD853F"
+    }
+]

@@ -1,0 +1,122 @@
+.overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 200;
+    background: rgba(0, 0, 0, 0.95);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--space-xl);
+}
+
+.content {
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+}
+
+.imageWrap {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    background: var(--bg-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.placeholder {
+    font-family: var(--font-heading);
+    font-size: 4rem;
+    color: rgba(201, 169, 110, 0.2);
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info {
+    margin-top: var(--space-lg);
+}
+
+.title {
+    font-family: var(--font-heading);
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.meta {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin-top: 4px;
+}
+
+.counter {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-top: var(--space-md);
+}
+
+.closeBtn {
+    position: absolute;
+    top: -3rem;
+    right: 0;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    font-family: var(--font-body);
+    padding: var(--space-xs) var(--space-md);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-full);
+    transition: all var(--duration-fast);
+}
+
+.closeBtn:hover {
+    color: var(--text-primary);
+    border-color: var(--accent);
+}
+
+.navBtn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-primary);
+    font-size: 1.5rem;
+    padding: var(--space-md);
+    border-radius: var(--radius-full);
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--border);
+    transition: all var(--duration-fast);
+}
+
+.navBtn:hover {
+    background: var(--accent-soft);
+    border-color: var(--accent);
+}
+
+.prevBtn {
+    left: -4rem;
+}
+
+.nextBtn {
+    right: -4rem;
+}
+
+@media (max-width: 768px) {
+    .prevBtn {
+        left: -0.5rem;
+    }
+
+    .nextBtn {
+        right: -0.5rem;
+    }
+
+    .navBtn {
+        padding: var(--space-sm);
+        font-size: 1.2rem;
+    }
+}

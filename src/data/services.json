@@ -1,0 +1,49 @@
+[
+    {
+        "id": "wedding-photography",
+        "title": "Wedding Photography",
+        "icon": "Camera",
+        "description": "Natural moments captured with a storytelling style that feels real and timeless.",
+        "items": [
+            "Candid Photography",
+            "Traditional Photography",
+            "Bridal & Groom Portraits",
+            "Family & Group Shots"
+        ]
+    },
+    {
+        "id": "wedding-cinematography",
+        "title": "Wedding Cinematography",
+        "icon": "Film",
+        "description": "Cinematic storytelling that gives your wedding a movie-like feel.",
+        "items": [
+            "Full Wedding Film",
+            "Highlight Film (3–5 min)",
+            "Teaser Video (Instagram-ready)",
+            "Drone Shots"
+        ]
+    },
+    {
+        "id": "pre-wedding",
+        "title": "Pre-Wedding Shoot",
+        "icon": "Heart",
+        "description": "Concept-based shoots that bring your love story to life before the big day.",
+        "items": [
+            "Romantic / Fun / Filmy concepts",
+            "Outdoor & Destination shoots",
+            "Save-the-Date video"
+        ]
+    },
+    {
+        "id": "functions-coverage",
+        "title": "Engagement, Haldi, Mehendi & Sangeet",
+        "icon": "Sparkles",
+        "description": "Complete coverage for every pre-wedding celebration — from the ring to the dance floor.",
+        "items": [
+            "Engagement / Roka photography & video",
+            "Haldi candid moments",
+            "Mehendi detail & portrait shots",
+            "Sangeet performances & highlights"
+        ]
+    }
+]
