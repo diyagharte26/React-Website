@@ -16,16 +16,18 @@ export function SlidingBgText({ text, triggerId }) {
         if (prefersReduced) return;
 
         const anim = gsap.fromTo(el,
-            { x: '-30%', y: '-50%' },
+            { xPercent: -30, yPercent: -50, force3D: true },
             {
-                x: '30%',
-                y: '-50%',
+                xPercent: 30,
+                yPercent: -50,
                 ease: 'none',
+                force3D: true,
                 scrollTrigger: {
                     trigger: triggerId,
                     start: 'top bottom',
                     end: 'bottom top',
-                    scrub: 1,
+                    scrub: 0.8,
+                    invalidateOnRefresh: true,
                 },
             }
         );

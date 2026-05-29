@@ -4,8 +4,11 @@ export const siteConfig = {
   founder: {
     name: 'Sahil Dasavate',
     role: 'Cinematographer & Photographer',
-    certification: 'Certified by Clickography',
-    certificationDetail: "India's Premier Wedding Photography Academy",
+    certifications: [
+      { name: 'YCP Institute', detail: 'YCP Institute Certified' },
+      { name: 'AMF Institute', detail: 'AMF Institute Certified' },
+      { name: 'Clickography', detail: "India's Premier Wedding Photography Academy" },
+    ],
     bio: "With an eye for raw emotion and cinematic beauty, I transform wedding celebrations into timeless visual stories. Every frame is crafted to feel authentic — from the quiet, intimate glances to the grand celebrations of love.",
     quote: 'Every wedding has a story. I make sure it\'s told beautifully.',
   },

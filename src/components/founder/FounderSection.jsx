@@ -77,20 +77,23 @@ export function FounderSection() {
                         {founder.bio}
                     </motion.p>
 
-                    <motion.div
-                        className={styles.certification}
-                        variants={fadeUp}
-                        initial="hidden"
-                        whileInView="visible"
-                        viewport={{ once: true, margin: '-100px' }}
-                        transition={{ duration: 0.6, delay: 0.5 }}
-                    >
-                        <Award size={24} className={styles.certIcon} />
-                        <div className={styles.certText}>
-                            ✦ {founder.certification}
-                            <span>{founder.certificationDetail}</span>
-                        </div>
-                    </motion.div>
+                    {founder.certifications.map((cert, i) => (
+                        <motion.div
+                            key={cert.name}
+                            className={styles.certification}
+                            variants={fadeUp}
+                            initial="hidden"
+                            whileInView="visible"
+                            viewport={{ once: true, margin: '-100px' }}
+                            transition={{ duration: 0.6, delay: 0.5 + i * 0.1 }}
+                        >
+                            <Award size={24} className={styles.certIcon} />
+                            <div className={styles.certText}>
+                                ✦ {cert.name}
+                                <span>{cert.detail}</span>
+                            </div>
+                        </motion.div>
+                    ))}
 
                     <motion.p
                         className={styles.quote}
